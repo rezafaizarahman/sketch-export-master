@@ -13,7 +13,7 @@ const mustache = require("gulp-mustache");
 const iconfont = require('gulp-iconfont');
 const svgSprite = require('gulp-svg-sprite');
 
-let sketchtool = '/Applications/Sketch.app/Contents/Resources/sketchtool/bin/sketchtool';
+let sketchtool = 'temp/Sketch.app/Contents/Resources/sketchtool/bin/sketchtool';
 let sketchFile = './sketch/icons.sketch';
 
 let packageInfo = require('./package.json');
